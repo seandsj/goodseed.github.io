@@ -67,6 +67,79 @@ input, select, textarea {
 	appearance: none;
 }
 
+#services {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.services {
+    flex-basis: 50%;
+    padding-right: 20px;
+}
+
+.image-container {
+    flex-basis: 40%;
+}
+
+.image-container img {
+    max-width: 100%; /* Ensure the image does not exceed its container's width */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure proper spacing */
+    margin: 0 auto; /* Center the image horizontally */
+    max-height: 300px; /* Set maximum height */
+}
+
+.why-choose {
+    margin-top: 20px; /* Add some space between the sections */
+}
+
+.why-choose li {
+    cursor: pointer;
+    user-select: none;
+    text-decoration: underline;
+}
+
+.additional-content {
+    display: none;
+}
+
+.general-orders {
+	margin-top: 20px;
+}
+
+.general-orders > li {
+	cursor: pointer;
+    user-select: none;
+    text-decoration: underline;
+}
+
+.code-ethics {
+	margin-top: 20px;
+}
+
+.code-ethics > li {
+	cursor: pointer;
+    user-select: none;
+    text-decoration: underline;
+}
+
+
+.code-conduct {
+	margin-top: 20px;
+}
+
+.code-conduct > li {
+	cursor: pointer;
+    user-select: none;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
 /* Basic */
 
 	@-ms-viewport {
